@@ -72,7 +72,7 @@ function addUsers() {
         console.log(userList);
         localStorage.setItem("userList", JSON.stringify(userList));
         setTimeout(function () {
-            window.location.href = "../login.html"
+            window.location.href = "./login.html";
         },3000)
     }
 }
