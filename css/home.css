@@ -1,0 +1,44 @@
+section {
+    background-color: #21343e;
+}
+
+section .head {
+    display: flex;
+    justify-content: space-between;
+}
+section .head h3 {
+    color: white;
+}
+
+section .head .btn-head {
+    padding: 6px;
+    background-color: transparent;
+    border: 2px solid rgb(197, 197, 64);
+    border-radius: 7px;
+    color: rgb(197, 197, 64);
+    font-size: 20px;
+}
+
+.container {
+    box-shadow: 0px 4px 15px #000000;
+    background-color: #21343d;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 70px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+

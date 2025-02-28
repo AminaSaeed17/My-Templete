@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form class="vh-100" id="formLogin">
+        <div class="container text-center p-4 ">
+            <h1>Smart Login System</h1>
+            <input id="sign-name" class="form-control" type="text" placeholder="Enter Your Name" aria-label="default input example">
+            <input id="sign-email" class="form-control" type="email" placeholder="Enter Your Email" aria-label="default input example">
+            <input id="sign-pass" class="form-control" type="password" placeholder="Ex : Password123@" aria-label="default input example">
+            <p class="alert-name d-none">not valid Name</p>
+            <p class="alert-email d-none">not valid Email</p>
+            <p class="alert-pass d-none">invalid Password, At least one uppercase letter, At least one lowercase letter, At least one number, At least one special character, Minimum length of 8 characters</p>
+            <p class="alert-exist d-none">Email aready exist</p>
+            <p class="alert-sucess d-none">Sucess you can login now</p>
+            <button class="w-100 btn-submit">Sign Up</button>
+            <p>Do have an account? <a href="login.html">SignIn</a></p>
+        </div>
+    </form>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
